@@ -5,6 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "fastapi[standard]>=0.116.1",
-    "requests>=2.32.4",
+    "fastapi[standard]>=0.128.0",
+    "jq>=1.10.0",
+    "requests>=2.32.5",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.10",
+    "types-requests>=2.32.4.20250913",
 ]
