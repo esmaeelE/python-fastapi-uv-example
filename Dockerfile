@@ -18,5 +18,5 @@ COPY --from=builder /app /app
 EXPOSE 8000
 
 # Run the application.
+# CMD ["/app/.venv/bin/fastapi", "run", "app/main.py", "--port", "8000", "--host", "0.0.0.0", "--reload"]
 CMD ["/app/.venv/bin/fastapi", "run", "app/main.py", "--port", "8000", "--host", "0.0.0.0"]
-#CMD ["bash", "-c", "trap 'exit 0' SIGINT SIGTERM; while true; do sleep 1; done"]

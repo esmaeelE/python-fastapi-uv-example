@@ -31,3 +31,7 @@ docker compose up -d
 ```bash
 uv run fastapi dev
 ```
+
+```bash
+docker-compose watch
+```
