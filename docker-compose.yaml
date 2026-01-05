@@ -1,4 +1,3 @@
----
 services:
   develop:
     build: .

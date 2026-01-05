@@ -35,3 +35,5 @@ uv run fastapi dev
 ```bash
 docker-compose watch
 ```
+
+Pydantic for request validation and typing for better clarity and conciseness. ensure the code is more type-safe and follows best practices for modern FastAPI applications.
